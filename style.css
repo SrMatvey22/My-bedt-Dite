@@ -1,0 +1,61 @@
+@font-face{
+	font-family: 'Roboto';
+	src: url('fonts/Roboto-black.ttf') format('ttf');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+.columns{
+	display: flex;
+}
+
+.column{
+	margin: 20px;
+	flex: 50%;
+}
+
+header, footer{
+	background-color: brown;
+	padding: 10px;
+}
+
+main{
+	padding: 10px;
+	background-color: silver;
+}
+
+.post{
+	display: flex;
+	background-color: yellow;
+	padding: 20px;
+}
+
+.merch{
+	background-color: blue;
+	flex: 20px;
+}
+
+.merch{
+        display: flex;
+}
+
+.dropbutton{
+       background-color: #4CAF50;
+	   color: white;
+	   padding: 16px;
+	   font-size: 16px;
+	   border: none;
+}
+
+.dropdown{
+    position: relative;
+	
+}
+
+.dropdown-content{
+        display: none;
+		position:absolute;
+		background-color: #f9f9f9;
+		min-width: 160px;
+}	
